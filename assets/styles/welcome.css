@@ -1,0 +1,30 @@
+.welcome-block {
+    --alpha: 0.3;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, var(--alpha)), rgba(0, 0, 0, var(--alpha))), url("../images/welcome-bg.jpg") center;
+    background-size: cover;
+
+    color: #fff;
+}
+
+.welcome-block h1 {
+    font-size: 6rem;
+    letter-spacing: 0.5rem;
+}
+
+
+.welcome-block img {
+    --size: 35px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+
+    animation: bounce 1s infinite;
+
+    transform: translateX(-50%);
+}

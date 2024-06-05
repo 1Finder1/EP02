@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Montserrat",  sans-serif;
+}
+
+h1 {
+    font-family: Molot, sans-serif;
+    font-size: 4rem;
+}
+
+.sizeable {
+    --size: 0px;
+
+    height: var(--size);
+    width: var(--size);
+}
+
+
+.fullscreen {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+        transform: translateY(0);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+}
