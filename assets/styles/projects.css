@@ -5,17 +5,30 @@
     align-items: center;
     gap: 2rem;
 
-    background: #8574ce;
+    /*background: #8574ce;*/
+}
+
+.portfolio-block [data-bs-slide-to] {
+    /*background: #fff!important;*/
+}
+
+.portfolio-block .carousel-indicators {
+    transform: translateY(50px);
 }
 
 .portfolio-content{
-    width: min(90vw, 800px);
+    /*width: min(90vw, 800px);*/
+    /*background: #FF7A7A;*/
+    padding: 1rem;
+    border-radius: 0.75rem;
 }
 
 .project-card--wrapper {
     display: flex;
     justify-content: center;
+    color: #fff;
    width: 100%;
+
 }
 
 
@@ -27,7 +40,6 @@
 
     padding: var(--padding);
 
-    color: #fff;
     border: 3px solid #FF7A7A;
     background: #FF7A7A;
 
