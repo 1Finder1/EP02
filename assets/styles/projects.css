@@ -1,4 +1,5 @@
 .portfolio-block {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,6 +7,35 @@
     gap: 2rem;
 
     /*background: #8574ce;*/
+}
+
+.portfolio-block .ambient {
+    --size: 128px;
+    --rotate: 0deg;
+
+    position: absolute;
+    transform: translateY(-50%) translateX(-50%) rotate(var(--rotate));
+}
+
+.portfolio-block .ambient:nth-of-type(1) {
+    --rotate: 33deg;
+    top: 35%;
+    left: 15%;
+    fill: #7ac3ff;
+}
+
+.portfolio-block .ambient:nth-of-type(2) {
+    --rotate: -20deg;
+    top: 40%;
+    right: 2%;
+    fill: #837aff;
+}
+
+.portfolio-block .ambient:nth-of-type(3) {
+    --rotate: 60deg;
+    bottom: 10%;
+    left: 25%;
+    fill: #ff7ae4;
 }
 
 .portfolio-block [data-bs-slide-to] {

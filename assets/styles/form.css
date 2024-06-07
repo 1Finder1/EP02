@@ -49,7 +49,7 @@
 
 }
 
-.form-block input, button {
+.form-block input, .form-block button {
     border: 2px solid #fff;
     border-radius: 0.75rem;
 
