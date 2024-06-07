@@ -6,6 +6,10 @@
     color: #fff
 }
 
+.form-block h2 {
+    text-align: center;
+}
+
 .form-block .socials {
     display: flex;
     justify-content: center;
