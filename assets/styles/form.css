@@ -3,7 +3,9 @@
     flex-direction: column;
     align-items: center;
     background: #CADC96;
-    color: #fff
+    color: #fff;
+
+    gap: 1rem
 }
 
 .form-block h2 {
