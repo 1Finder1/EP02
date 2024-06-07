@@ -3,13 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 
-    font-family: "Montserrat",  sans-serif;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 h1 {
     font-family: Molot, sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
 }
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: 0.875rem;
+}
+
+h6 {
+    font-size: 0.75rem;
+}
+
 
 .sizeable {
     --size: 0px;
@@ -18,10 +48,13 @@ h1 {
     width: var(--size);
 }
 
+.block {
+    padding: 1rem;
+}
 
 .fullscreen {
     width: 100vw;
-    min-height: 100vh;
+    min-height: fit-content;
 }
 
 

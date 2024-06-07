@@ -1,0 +1,68 @@
+.career-block {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    z-index: 1;
+}
+
+.career-block h2 {
+    width: fit-content;
+}
+
+.career-block img {
+    position: absolute;
+    left: 5vw;
+    top: 0;
+    width: 90vw;
+    height: 45vw;
+
+    aspect-ratio: 1/1;
+
+    /*filter: blur(5px);*/
+}
+
+.career-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+    gap: 5rem 1.25rem;
+
+    height: 100%;
+    width: fit-content;
+
+    z-index: 2;
+}
+
+.career-card {
+    display: grid;
+    grid-template-rows: 64px 1fr;
+    align-items: center;
+    justify-items: center;
+
+    background: #FF6931;
+    border-radius: 0.75rem;
+
+    width: 380px;
+    height: 160px;
+}
+
+.career-card--date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #fff;
+    border-radius: 0 0 0.75rem 0.75rem;
+
+    width: 255px;
+    height: 64px;
+}
+
+.career-card--event {
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+}
